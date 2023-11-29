@@ -3,7 +3,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     background: #141415;
-    padding: 15px 40px;
+    padding: 10px 40px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.06);
     border-radius: 3px;
     margin: 5px 0;
@@ -11,10 +11,11 @@ nav{
 
 #logo p{
    padding-left: 5px; 
+   font-size: 1.2rem;
 }
 #logo p span{
     color: #008170;
-    font-weight: bold;
+    font-weight: bolder;
 }
 #navbar, #logo{
     display: flex;
@@ -26,14 +27,14 @@ nav{
 .btn{
     border-radius: 60px;
     padding: 8px 0px;
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1.1rem;
+    font-weight: 500;
     width: 115px;
     cursor: pointer;
 }
 
 .inBtn{
-    border: 3px solid #008170;
+    border: 3px solid #232D3F;
     background-color: #141415;
     color: white;
     transition: 0.3s ease-in-out;
@@ -49,6 +50,7 @@ nav{
     border: 3px solid #232D3F;
     background-color: #232D3F ;
     color: #008170;
+    font-weight: 600;
     transition: 0.3s ease-in-out;
     margin-left: -20px;
 }
@@ -68,7 +70,7 @@ nav{
 
 #navbar li a,a{
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     color: #fff;
     transition: 0.3s ease-in-out;
@@ -85,6 +87,7 @@ nav{
     width: 30%;
     height: 2px;
     background: #008170;
+    border-radius: 2px;
     position: absolute;
     bottom: -4px;
     left: 20px;
@@ -103,10 +106,10 @@ nav{
     #navbar{
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: flex-start;
         position: fixed;
-        top: 75px;
+        top: 65px;
         right: -300px;
         width: 300px;
         height: 100vh;
@@ -114,6 +117,7 @@ nav{
         backdrop-filter: blur(100px);
         box-shadow: 0 40px 60px rgba(0,0,0,0.1);
         padding: 40px 0 0 10px;
+        border-radius: 4px;
         transition: .3s ease-in-out;
     }
 
