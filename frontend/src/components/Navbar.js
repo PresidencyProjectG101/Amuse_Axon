@@ -24,8 +24,8 @@ class Navbar extends Component{
                     <li><a className="active" href="">Home</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
-                     <li><a href="">Sign In</a></li>
-                    <li><a href="">Sign Up</a></li>
+                    <li><button href="" className="inBtn btn">Log In</button></li>
+                    <li><button href="" className="upBtn btn">Sign Up</button></li>
                 </ul>
             </div>
 
