@@ -1,0 +1,111 @@
+/* sec1 */
+.sec1, .sec2, .sec3{
+    width: 90%;
+    height: 55vh;
+    margin: auto;
+    background-image: linear-gradient(
+    55deg,
+    hsl(0deg 0% 6%) 15%,
+    hsl(190deg 27% 9%) 70%,
+    hsl(190deg 27% 9%) 78%,
+    hsl(0deg 0% 6%) 100%
+  );
+    /* background-image: linear-gradient(to left bottom, #0f1f22, #111b1f, #13171b, #121316, #0f0f0f); */
+    border-radius: 10px;
+    color: aliceblue;
+  }
+  
+  .sub-sec1{
+    margin-top: 20px;
+  }
+  .sub-sec2{
+    margin-top: 40px;
+  }
+  .athletic{
+    width: 180px;
+    position: absolute;
+    left: 100px;
+    bottom: 210px;
+  }
+  .runner{
+    width: 220px;
+    position: absolute;
+    top: 100px;
+    margin-left: -10px;
+  }
+  .backlogo{
+    width: 200px;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+  }
+  
+  .gamify{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-top: 40px;
+    padding-right: 320px;
+  }
+  .fitness{
+    position: absolute;
+    font-size: large;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-right: 120px;
+    top: 300px;
+    right: 0;
+  }
+  
+  .sec2, .sec3{
+    height: 95vh;
+    margin: 30px auto;
+  }
+  .sub-sec2, .sub-sec3{
+    display: grid;
+    place-content: center;
+  }
+  .sub-sec2 p, .sub-sec3 p{
+    text-align: justify;
+    text-justify: inter-word;
+    /* text-align: start; */
+    width: 70%;
+    margin: auto;
+    font-size: 1.5rem;
+  }
+  .sub-sec2 h2, .sub-sec3 h2{
+    font-weight: bolder;
+    font-size: xx-large;
+    font-size: 2.5rem;
+    padding-top: 75px;
+    padding-bottom: 40px;
+  }
+
+  .sub-sec2 button, .sub-sec3 button{
+    width: 120px;
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #232D3F;
+    border-radius: 11px;
+    background-color: #232D3F;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  .sub-sec2 button:hover,
+  .sub-sec3 button:hover{
+    border: 2px solid #232D3F;
+    background-color: transparent;
+  }
+  .sub-sec2 button a,
+  .sub-sec3 button a{
+    color: #008170;
+  }
+  
+  /* .clip{
+    -webkit-clip-path: polygon(0 100%, 81% 0, 99% 0, 57% 58%, 100% 100%, 74% 100%, 45% 70%, 20% 100%);
+  clip-path: polygon(0 100%, 81% 0, 99% 0, 57% 58%, 100% 100%, 74% 100%, 45% 70%, 20% 100%);
+    background-color: #0F0F0F;
+    height: 100%;
+    top: 100px;
+  } */
+  

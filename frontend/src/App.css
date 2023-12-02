@@ -9,29 +9,15 @@ body{
 }
 .App {
   text-align: center;
+  
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* sub app */
+.sub-app{
+  margin: 10px;
+  height: 100%;
+  background-color: rgba(35,45,63,0.31);
+  border-radius: 5px;
+}
 
 
 /* 
