@@ -1,0 +1,93 @@
+
+  /* label, */
+  input,
+  textarea {
+    /* display: block; */
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 240px;
+    border-radius: 20px;
+    outline: none;
+    border: 2px solid transparent;
+    background-color: rgba(66, 155, 177, 0.42);
+  }
+
+  textarea {
+    height: 100px;
+    margin-bottom: 50px;
+  }
+  
+  button {
+    margin: auto;
+    border-radius: 30px;
+    width: 120px;
+    padding: 12px; 
+    background-color: black;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #232D3F;
+    color: #008170;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 85vh;
+    margin: auto;
+    background-color: black; 
+     border-radius: 10px;
+    color: aliceblue;
+  }
+  .left{
+    display: grid;
+    width: 55%;
+    height: 95%;
+    margin: auto;
+    margin-right: 5px;
+    place-content: center;
+    background-image: linear-gradient(
+    55deg,
+    hsl(0deg 0% 6%) 15%,
+    hsl(190deg 27% 9%) 70%,
+    hsl(190deg 27% 9%) 78%,
+    hsl(0deg 0% 6%) 100%
+  );
+  border-radius: 10px;
+  }
+
+  .left h2{
+    display: block;
+    font-size: 2rem;
+    width: 400px;
+    margin-bottom: 100px;
+  }
+  .left img{
+    width: 260px;
+    position: relative;
+    top: -20px;
+    left: -100px;
+    
+  }
+  .right{
+    display: grid;
+    width: 40%;
+    height: 95%;
+    margin: auto;
+    place-content: center;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  .right h2{
+    color: #008170;
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }

@@ -1,18 +1,22 @@
-// import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
+import Contact from './contact/Contact';
 import SectionOne from './sec1/SectionOne';
+import Footer from './footer/Footer';
+import ImgSlider from './Slider/ImgSlider';
 
 function App() {
+
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar/> 
 
-      <div className='sub-app'>
-        {/* slider */}
-
-        <SectionOne/>
-      </div>
+      <ImgSlider/>
+        <div className='sub-app'>
+          <SectionOne/>
+          <Contact/>
+          <Footer/>
+        </div>
 
     </div>
   );

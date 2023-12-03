@@ -21,11 +21,11 @@ class Navbar extends Component{
 
             <div >
                 <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
-                    <li><a className="active" href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><button href="" className="inBtn btn">Log In</button></li>
-                    <li><button href="" className="upBtn btn">Sign Up</button></li>
+                    <li><a className="active" href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Contact</a></li>
+                    <li><button href="/" className="inBtn btn">Log In</button></li>
+                    <li><button href="/" className="upBtn btn">Sign Up</button></li>
                 </ul>
             </div>
 
