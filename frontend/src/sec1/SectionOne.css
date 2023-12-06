@@ -15,47 +15,62 @@
     color: aliceblue;
   }
   
-  .sub-sec1{
-    margin-top: 20px;
+  .sec1{
+    margin-top: 30px;
   }
   .sub-sec2{
     margin-top: 40px;
   }
   .athletic{
-    
     width: 180px;
-    position: absolute;
-    left: 100px;
-    bottom: -230px;
+    position: relative;
+    left: -450px;
+    /* margin-right: 900px; */
+    top: 60px;
   }
+
   .runner{
+    display: inline-block;
     width: 220px;
-    position: absolute;
-    top: 530px;
-    margin-left: -10px;
+    /* width: 20%; */
+    position: relative;
+    top: -420px;
+    right: -300px;
+    /* margin-left: 390px; */
+    /* margin-left: -10px; */
   }
   .backlogo{
+    /* display: block; */
     width: 200px;
-    position: absolute;
-    right: 100px;
-    top: 530px;
+    position: relative;
+    top: -550px;
+    left: 180px;
+   /* margin-left: 600px; /*breaking */
+    /* right: -240px; */
+
   }
   
   .gamify{
+    position: relative;
+    top: -200px;
+    left: -200px;
     font-size: 3rem;
     font-weight: bolder;
-    padding-top: 40px;
-    padding-right: 320px;
+    /* margin-bottom: 500px; */
+    /* padding-top: 40px; 
+    padding-right: 320px; */
   }
   .fitness{
-    position: absolute;
+    position: relative;
+    top: -500px;
+    right: -300px;
+    display: inline;
     font-size: large;
     font-size: 1.8rem;
     font-weight: 600;
-    margin-right: 120px;
-    top: 750px;
-    right: 0;
-  }
+    /* left: 200px; */
+    /* margin-right: 120px; */
+   }
   
   .sec2, .sec3{
     height: 95vh;

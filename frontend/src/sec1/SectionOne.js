@@ -12,18 +12,15 @@ export default function SectionOne() {
             
           </div> */}
           <div className='sub-sec1'>
-            <img src={athletic} alt='img' className='athletic'></img>
-
+            <img src={athletic} alt='img' className='athletic'/>
             <p className='gamify'>Gamify You’re <br/>Fitness and <br/>Win Awards
             </p>
-
-            <img src={runner} alt='img' className='runner'></img>
-
+            <img src={runner} alt='img' className='runner'/>
             <p className='fitness'> We Make Fitness Fun </p>
-
-            <img src={backlogo} alt='img' className='backlogo'></img>
+            <img src={backlogo} alt='img' className='backlogo'/>
           </div>
         </div>
+        
         {/* ======Second Section======= */}
         <div className='sec2'>
           <div className='sub-sec2'>

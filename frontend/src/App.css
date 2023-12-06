@@ -6,19 +6,19 @@
 
 body{
   background-color: #0F0F0F;
-}
+} 
 .App {
   text-align: center;
   
 }
 /* sub app */
-.sub-app{
+/* .sub-app{
   margin: 10px;
   height: 100%;
   padding-bottom: 30px;
-  /* background-color: rgba(35,45,63,0.31); */
+  background-color: rgba(35,45,63,0.31);
   border-radius: 5px;
-}
+} */
 
 
 /* 

@@ -27,8 +27,9 @@
 }
 
 .slide-image{
-    /* width: 100%; */
-    height: 100%;
+    padding: 10px 0px;
+    width: 93%;
+    /* height: 100%; */
     /* position: absolute; */
     border: none;
     object-fit: cover;
@@ -45,6 +46,7 @@
     font-size: 30px;
     font-weight: bold;
     border-radius: 0px 5px 5px 0px;
+    /* border-radius: 40px; */
 }
 .pre{
     left: 0;
@@ -56,7 +58,7 @@
 }
 .next{
     right: 0;
-    border-radius: 5px 0px 0px 5px;
+    /* border-radius: 5px 0px 0px 5px; */
 }
 .all-dots{
     width: 100%;
