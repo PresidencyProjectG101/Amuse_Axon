@@ -1,7 +1,6 @@
 import {Component} from "react";
 import "./NavbarStyles.css";
 
-
 class Navbar extends Component{
     state = {clicked:false};
     handleClick = () => {
@@ -21,11 +20,17 @@ class Navbar extends Component{
 
             <div >
                 <ul id="navbar" className={this.state.clicked ? "#navbar active" : "#navbar"}>
-                    <li><a className="active" href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Contact</a></li>
-                    <li><button href="/" className="inBtn btn">Log In</button></li>
-                    <li><button href="/" className="upBtn btn">Sign Up</button></li>
+                    
+                    {/* <li><a className="active" href="/">Home</a></li>
+                    <li><a href="/SectionOne">About</a></li>
+                    <li><a href="/Contact">Contact</a></li> */}
+
+                    <CustomLink href="/">Home</CustomLink>
+                    <CustomLink href="/SectionOne">About</CustomLink>
+                    <CustomLink href="/Contact">Contact</CustomLink>
+
+                    <li><button href="/log" className="inBtn btn">Log In</button></li>
+                    <li><button href="/sign" className="upBtn btn">Sign Up</button></li>
                 </ul>
             </div>
 
@@ -39,6 +44,17 @@ class Navbar extends Component{
         </>
     )
 }
+}
+
+function CustomLink({href, children, ...props}){
+    const path = window.location.pathname
+
+    return(
+        <li>
+            <a href={href}{...props} className={path === href ? "active" : ""}>{children}</a>
+
+        </li>
+    )
 }
 
 export default Navbar;
