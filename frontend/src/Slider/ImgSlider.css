@@ -45,11 +45,12 @@
     margin-top: -3rem;
     font-size: 30px;
     font-weight: bold;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 5px 5px 5px 5px;
     /* border-radius: 40px; */
 }
 .pre{
     left: 0;
+    /* margin-left: 10px; */
 }
 .pre:hover, .next:hover{
     color: white;

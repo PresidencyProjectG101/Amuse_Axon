@@ -73,17 +73,35 @@
   /* margin-right: 120px; */
  }
 
+/*==== sec1 end ==== */
+
 .sec2, .sec3{
-  /* height: 95vh; */
+  height: 95vh;
   margin: 30px auto;
   /* padding: 20px auto; */
+}
+.strip{
+  display: block;
+  z-index: 1;
+  position: relative;
+  margin-left: 140vh;
+  top: -476.5px;
+  max-width: 3rem;
+  min-height: 95vh;
+  outline: none;
+  /* min-height: inherit; */
+  background-color: #0F0F0F;
+  /* background-color: aliceblue; */
+  border-radius: 7px;
 }
 .sub-sec2, .sub-sec3{
   padding-bottom: 40px;
   display: grid;
   place-content: center;
 }
+
 .sub-sec2 p, .sub-sec3 p{
+  z-index: 10;
   text-align: justify;
   text-justify: inter-word;
   /* text-align: start; */
@@ -92,6 +110,7 @@
   font-size: 1.5rem;
 }
 .sub-sec2 h2, .sub-sec3 h2{
+  z-index: 10;
   font-weight: bolder;
   font-size: xx-large;
   font-size: 2.5rem;

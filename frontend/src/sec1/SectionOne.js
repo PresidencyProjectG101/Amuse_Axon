@@ -8,9 +8,7 @@ export default function SectionOne() {
   return (
     <>
         <div className='sec1'>
-          {/* <div className='clip'>
-            
-          </div> */}
+          {/* <div className='clip'></div> */}
           <div className='sub-sec1'>
             <img src={athletic} alt='img' className='athletic'/>
             <p className='gamify'>Gamify You’re <br/>Fitness and <br/>Win Awards
@@ -37,6 +35,8 @@ export default function SectionOne() {
             <button>
                 <a href='/'>Learn More</a>
             </button>
+
+            <div className='strip'></div>
           </div>
         </div>
         {/* ======Third Section====== */}
@@ -56,6 +56,8 @@ export default function SectionOne() {
                 </p>
 
                 <button><a href='/'>Connect</a></button>
+            
+                <div className='strip'></div>
             </dev>
         </div>
     </>
