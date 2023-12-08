@@ -36,12 +36,17 @@ const Contact = () => {
         <div className='left'>
             <img src={backlogo} alt='logo'/>
             <h2>Send Message, Feedback here</h2>
+            <div className='contact-icons'>
+            {/* <i class="fa-brands fa-github"></i> */}
+            <a href='/'><i class="fa-brands fa-square-github"></i></a>
+            <a href='/'><i class="fa-brands fa-instagram"></i></a>
+            <a href='/'><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
         </div>
 
     <form onSubmit={handleSubmit} className='right'>
       <h2>Contact US</h2>     
       <div className='in-box'>
-        {/* <label htmlFor="name">Name</label> */}
         <input
         placeholder='Name'
           type="text"
@@ -51,9 +56,9 @@ const Contact = () => {
           onChange={handleChange}
           required
         />
+        <label htmlFor="name">Name</label>
       </div>
-      <div>
-        {/* <label htmlFor="email">Email:</label> */}
+      <div className='in-box'>
         <input
           placeholder='Email'
           type="email"
@@ -63,9 +68,9 @@ const Contact = () => {
           onChange={handleChange}
           required
         />
+        <label htmlFor="email">Email</label>
       </div>
-      <div>
-        {/* <label htmlFor="message">Message:</label> */}
+      <div className='in-box'>
         <textarea
           placeholder='Message'
           id="message"
@@ -74,6 +79,7 @@ const Contact = () => {
           onChange={handleChange}
           required
         ></textarea>
+        <label htmlFor="message">Message</label>
       </div>
       <button type="submit">Submit</button>
     </form>

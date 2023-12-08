@@ -2,20 +2,56 @@
   /* label, */
   input,
   textarea {
-    /* display: block; */
-    margin-bottom: 20px;
+    margin-bottom: 23px;
     padding: 10px;
     width: 240px;
-    border-radius: 20px;
+    border-radius: 10px;
     outline: none;
     border: 2px solid transparent;
     background-color: rgba(66, 155, 177, 0.42);
+    transition: 0.3 ease-in-out;
   }
 
   textarea {
     height: 100px;
     margin-bottom: 50px;
   }
+
+.in-box{
+  position: relative;
+}
+  label{
+    color: white;
+    font-weight: 500;
+    position: absolute;
+    top: -21.5px;
+    left: 10px;
+    transition: 0.4s ease-in-out;
+  }
+  input:focus ~ label,
+  input:active ~ label,
+  textarea:focus ~ label,
+  textarea:active ~ label{
+    color: #008170;
+   
+  }
+  input:focus, textarea:focus,
+  input:active, textarea:active{
+    border: 2px solid rgb(46, 249, 208);
+    outline: none;
+  }
+  input:focus::placeholder,
+  textarea:focus::placeholder{
+    color: transparent;
+  }
+  
+  /* input:focus ~ label, input:not(:placeholder-shown) input:not(:focus) ~ label{
+    top: -12px;
+    color: #008170;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 1px 4px;
+  } */
   
   button {
     margin: auto;
@@ -67,12 +103,12 @@
     display: block;
     font-size: 2rem;
     width: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
   }
   .left img{
     width: 260px;
     position: relative;
-    top: -20px;
+    bottom: 1.5rem;
     left: -100px;
     
   }
@@ -90,4 +126,15 @@
     font-size: 2.2rem;
     font-weight: bold;
     margin-bottom: 30px;
+  }
+
+  .contact-icons a i{
+    font-size: 2rem;
+    margin: 0 10px;
+    transition: 0.2s ease-in-out;
+  }
+
+  .contact-icons a i:hover{
+    color: rgb(46, 249, 208);
+    transform: translateY(-8px);
   }
